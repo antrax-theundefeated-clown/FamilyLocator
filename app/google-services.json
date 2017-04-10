@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "313605464812",
+    "firebase_url": "https://family-locator-8d843.firebaseio.com",
+    "project_id": "family-locator-8d843",
+    "storage_bucket": "family-locator-8d843.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313605464812:android:aaa530524e6346f5",
+        "android_client_info": {
+          "package_name": "com.kumar.akshay.familylocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313605464812-k68smbs26euhe106cceofupdf67m4c2r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kumar.akshay.familylocator",
+            "certificate_hash": "cfacd8dad746bcb8bd0f92812b29cf06c63e0c61"
+          }
+        },
+        {
+          "client_id": "313605464812-9u76cositvge4bca7k0h1bic6p5i0pfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtvFkffzwGEyf02d_p40tbW14TivEwvqQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313605464812-9u76cositvge4bca7k0h1bic6p5i0pfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

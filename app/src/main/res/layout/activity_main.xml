@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.kumar.akshay.familylocator.MainActivity">
+
+    <Button
+        android:id="@+id/check_locations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addGeofencesButtonHandler"
+        android:text="@string/check_locations"
+        android:layout_marginBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/messageListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        tools:listitem="@layout/item_message" />
+
+</LinearLayout>
